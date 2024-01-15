@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    /* border: 1px solid red; */
+}
+:root{
+    --orange-color: #FF5400;
+    --black-color: #131318;
+    --gray-color: #5A5A5D;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Navbar Start  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 0rem;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1.8rem;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--black-color);
+    font-weight: 600;
+    transition: color 0.3s;
+}
+nav ul li a:hover{
+    color: var(--orange-color);
+}
+.nav__left{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    cursor: pointer;
+}
+.nav__left h1{
+    font-weight: 900;
+}
+.nav__left h1 span{
+    color: var(--orange-color);
+}
+.nav__right img{
+    display: none;
+}
+/* Navbar End  */
+
+/* Hero Section Start  */
+.hero__section{
+    height: 500px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(255, 255, 255, 0.1)), url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero__section h1{
+    font-size: 4rem;
+    color: #fff;
+}
+.hero__section p{
+    color: #fff;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 15px;
+}
+.input__div{
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.input__div input, .input__div select{
+    padding: 0.8rem 0.5rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.input__div select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(Images/down_arrow.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.input__div button{
+    background-color: var(--orange-color);
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.input__div button h3{
+    font-weight: 400;
+}
+/* Hero Section End  */
+
+/* Our Popular Tour Section Start */
+.popular__tour{
+    display: flex;
+    gap: 3.5rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+.popular__tour_left{
+    flex-basis: 50%;
+}
+.popular__tour_left h1{
+    font-size: 2.7rem;
+    margin-bottom: 15px;
+}
+.popular__tour_left p{
+    margin: 15px 0px;
+    color: var(--gray-color);
+}
+.popular__tour_left ul{
+    margin-left: 20px;
+}
+.popular__tour_left ul li{
+    margin-bottom: 8px;
+    
+}
+.popular__tour_left button{
+    padding: 0.5rem 1.2rem;
+    border: none;
+    background-color: var(--orange-color);
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Our Popular Tour Section End */
+
+/* Destination Section Start */
+.destination{
+    margin-top: 4rem;
+}
+.destination__top{
+    text-align: center;
+}
+.destination__top h1{
+    font-size: 2.7rem;
+    color: var(--black-color);
+}
+.destination__top p{
+    color: var(--gray-color);
+    max-width: 700px;
+    margin: auto;
+    margin-top: 15px;
+}
+.destination__bottom{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 300px 273px 300px;
+    gap: 1rem;
+}
+.destination__bottom div{
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.div1{
+    grid-column: 1 / span 5;
+    background-image: url(Images/Rectangle\ 5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div2{
+    grid-column: span 5 / span 10;
+    background-image: url(Images/Rectangle\ 8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div3{
+    grid-column: 1 / span 3;
+    background-image: url(Images/Rectangle\ 6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div4{
+    grid-column: 4 / span 5;
+    background-image: url(Images/Rectangle\ 7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div5{
+    grid-column: 9 / span 2;
+    background-image: url(Images/Rectangle\ 9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div6{
+    grid-column: 1 / span 5;
+    background-image: url(Images/Rectangle\ 11.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div7{
+    grid-column: span 5 / span 10;
+    background-image: url(Images/Rectangle\ 10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Destination Section End */

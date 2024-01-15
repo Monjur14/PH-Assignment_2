@@ -1,0 +1,67 @@
+@media (0px < width <= 600px) {
+    /* Navbar  */
+    .container{
+        padding: 0.7rem 1rem;
+    }
+    .nav__left img{
+        width: 40px;
+    }
+    nav ul{
+        display: none;
+    }
+    .nav__right img{
+        width: 35px;
+        cursor: pointer;
+        display: block;
+    }
+
+    /* Hero Section  */
+    .input__div{
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+    .hero__section h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .input__div button{
+        padding: 0.5rem 0rem;
+    }
+
+    /* Our Popular Tour Section  */
+    .popular__tour{
+        flex-direction: column;
+        margin-top: 3rem;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .popular__tour img{
+        width: 100%;
+    }
+    .popular__tour button{
+        font-size: 17px;
+    }
+    .popular__tour_left h1{
+        font-size: 2.5rem;
+    }
+
+    /* Destination Section  */
+    .destination{
+        margin-top: 2rem;
+    }
+    .destination__top h1{
+        font-size: 2.1rem;
+    }
+    .destination__bottom{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 300px);
+    }
+    .div1, .div2, .div3, .div4, .div5, .div6, .div7{
+        grid-column: 1 / span 10;
+    }
+}
+@media (800px < width <= 1200px) {
+    .container{
+        margin: 0rem 2rem;
+    }
+}
