@@ -237,6 +237,207 @@ nav ul li a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 /* Destination Section End */
+
+/* Why Choose Us Section Start */
+.why__choose_us{
+    margin-top: 4rem;
+}
+.why__choose_us_top{
+    text-align: center;
+}
+.why__choose_us_top h1{
+    font-size: 2.7rem;
+    color: var(--black-color);
+}
+.why__choose_us_top p{
+    color: var(--gray-color);
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.why__choose_us_bottom{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.why__choose_us_bottom div{
+    padding: 1.8rem;
+    border-radius: 15px;
+}
+.why__choose_us_bottom h3{
+    margin: 10px 0px;
+    font-size: 1.7rem;
+}
+.wcu__div1{
+    background-color: #fbb46354;
+    border: 0.5px solid #fbb463d0;
+}
+.wcu__div2{
+    background-color: #29cdf648;
+    border: 0.5px solid #29cdf6c8;
+}
+.wcu__div3{
+    background-color: #e9444433;
+    border: 0.5px solid #e944449e;
+    transform: translateX(50%);
+}
+/* Why Choose Us Section End */
+
+/* Deals & Discounts Start */
+.dd{
+    margin-top: 4rem;
+}
+.dd__top{
+    text-align: center;
+}
+.dd__top h1{
+    font-size: 2.7rem;
+    color: var(--black-color);
+}
+.dd__top p{
+    max-width: 700px;
+    margin: auto;
+    margin-top: 15px;
+    color: var(--gray-color);
+}
+.dd__bottom{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.dd__div1{
+    background-image: url(Images/Group\ 39.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding: 3rem;
+    display: flex;
+    justify-content: end;
+}
+.dd__div1_inner_top{
+    display: flex;
+    gap: 1rem;
+}
+.dd__div1_inner_top div{
+    display: flex;
+    gap: 8px;
+    color: var(--gray-color);
+    align-items: center;
+}
+.dd__div1_inner{
+    max-width: 600px;
+    background: #ffffffb4;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+.dd__div1_inner h3{
+    font-size: 1.7rem;
+    margin: 15px 0px;
+}
+.dd__div1_inner p{
+    color: var(--gray-color);
+    line-height: 25px;
+}
+.dd__div1_inner h4{
+    margin: 15px 0px;
+    color: var(--orange-color);
+    font-weight: 900;
+}
+.dd__bottom button{
+    background-color: var(--orange-color);
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.dd__div2{
+    background-image: url(Images/Group\ 40.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding: 3rem;
+    display: flex;
+    justify-content: start;
+}
+.dd__div2_inner_top{
+    display: flex;
+    gap: 1rem;
+}
+.dd__div2_inner_top div{
+    display: flex;
+    gap: 8px;
+    color: var(--gray-color);
+    align-items: center;
+}
+.dd__div2_inner{
+    max-width: 600px;
+    background: #ffffffb4;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+.dd__div2_inner h3{
+    font-size: 1.7rem;
+    margin: 15px 0px;
+}
+.dd__div2_inner p{
+    color: var(--gray-color);
+    line-height: 25px;
+}
+.dd__div2_inner h4{
+    margin: 15px 0px;
+    color: var(--orange-color);
+    font-weight: 900;
+}
+
+
+.dd__div3{
+    background-image: url(Images/Group\ 39.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding: 3rem;
+    display: flex;
+    justify-content: end;
+}
+.dd__div3_inner_top{
+    display: flex;
+    gap: 1rem;
+}
+.dd__div3_inner_top div{
+    display: flex;
+    gap: 8px;
+    color: var(--gray-color);
+    align-items: center;
+}
+.dd__div3_inner{
+    max-width: 600px;
+    background: #ffffffb4;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+.dd__div3_inner h3{
+    font-size: 1.7rem;
+    margin: 15px 0px;
+}
+.dd__div3_inner p{
+    color: var(--gray-color);
+    line-height: 25px;
+}
+.dd__div3_inner h4{
+    margin: 15px 0px;
+    color: var(--orange-color);
+    font-weight: 900;
+}
+
+
+/* Deals & Discounts End */
+

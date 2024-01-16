@@ -59,6 +59,24 @@
     .div1, .div2, .div3, .div4, .div5, .div6, .div7{
         grid-column: 1 / span 10;
     }
+
+    /* Why Choose Us Section */
+    .why__choose_us{
+        margin-top: 2rem;
+    }
+    .why__choose_us_bottom{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 2rem;
+    }
+    .why__choose_us_bottom div{
+        padding: 1rem;
+    }
+    .why__choose_us_top h1{
+        font-size: 2.5rem;
+    }
+    .wcu__div3{
+        transform: translateX(0%);
+    }
 }
 @media (800px < width <= 1200px) {
     .container{
