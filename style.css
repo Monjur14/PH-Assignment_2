@@ -286,6 +286,50 @@ nav ul li a:hover{
 }
 /* Why Choose Us Section End */
 
+/* Video Background Section Start */
+.video__bg{
+    
+    height: 500px; 
+    margin-top: 4rem;  
+}
+.video__bg video{
+    width: 1200px;
+    height: 500px;
+}
+
+
+/* Video Background Section End */
+.bg__video{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+.bg__video_container h1{
+    font-size: 4.5rem;
+    color: #fff;
+}
+.bg__video_container span{
+    color: var(--orange-color);
+}
+.bg__video_container h2{
+    color: #fff;
+    max-width: 650px;
+    margin-top: 15px;
+}
+.bg__video_container{
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 4rem;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+}
 /* Deals & Discounts Start */
 .dd{
     margin-top: 4rem;
@@ -396,8 +440,6 @@ nav ul li a:hover{
     color: var(--orange-color);
     font-weight: 900;
 }
-
-
 .dd__div3{
     background-image: url(Images/Group\ 39.png);
     background-position: center;
@@ -437,7 +479,157 @@ nav ul li a:hover{
     color: var(--orange-color);
     font-weight: 900;
 }
-
-
+.bottom__btn{
+    width: 200px;
+    margin: auto;
+}
 /* Deals & Discounts End */
 
+/* Video Section Start */
+.video__section{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.video__left{
+    flex-basis: 50%;
+}
+.video__left h1{
+    font-size: 3rem;
+    color: var(--black-color);
+}
+.video__left p{
+    color: var(--gray-color);
+    margin: 15px 0px;
+}
+.video__left ul{
+    margin-left: 15px;
+}
+.video__left ul li:first-child{
+    margin-bottom: 10px;
+}
+.video__right video{
+    max-width: 600px;
+    border-radius: 10px;
+}
+.video__left button{
+    padding: 0.5rem 1rem;
+    background-color: var(--orange-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+/* Video Section End */
+
+/* Newsletter Section Start */
+.newsletter__section{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.newsletter__right{
+    flex-basis: 60%;
+    background-image: url(Images/Rectangle\ 8.png);
+    height: 325px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    position: relative;
+}
+.newsletter__right_inner{
+    background-color: var(--orange-color);
+    width: fit-content;
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 14%;
+    right: 1%;
+    
+    transform: rotate(-30deg);
+}
+.newsletter__left{
+    display: flex;
+    flex-basis: 40%;
+    flex-direction: column;
+    border: 1px solid var(--orange-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    gap: 1rem;
+}
+.newsletter__left h1{
+    color: var(--black-color);
+    font-weight: 800;
+}
+.newsletter__left p{
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+    color: var(--gray-color);
+}
+.newsletter__left input{
+    padding: 0.6rem 0.5rem;
+    background-color: #6464641f;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.newsletter__left button{
+    background-color: var(--orange-color);
+    padding: 0.6rem 0rem;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Newsletter Section End */
+
+/* Footer Start */
+footer{
+    background-color: #13131817;
+    margin-top: 4rem;
+}
+.footer__logo{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    color: var(--black-color);
+    margin-bottom: 20px;
+}
+.footer__logo span{
+    color: var(--orange-color);
+}
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+.footer__container p{
+    color: var(--gray-color);
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+}
+.icon__div{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+hr{
+    height: 0.5px;
+    width: 95%;
+    margin: 30px 0px;
+    color: #5A5A5D;
+}
+/* Footer End */

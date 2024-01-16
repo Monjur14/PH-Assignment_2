@@ -77,6 +77,50 @@
     .wcu__div3{
         transform: translateX(0%);
     }
+    
+    /* Video Background Section */
+    .bg__video_container h1{
+        font-size: 2.8rem;
+    }
+    
+
+    /* Deals and Discount Section */
+    .dd{
+        margin-top: 2rem;
+    }
+    .dd__top h1{
+        font-size: 2.5rem;
+    }
+    .dd__div1, .dd__div2, .dd__div3{
+        padding: 1rem;
+    }
+    .dd__div1_inner_top, .dd__div2_inner_top, .dd__div3_inner_top{
+        flex-wrap: wrap;
+    }
+
+    /* Video Section */
+    .video__section{
+        flex-direction: column;
+        margin-top: 2rem;
+        gap: 2rem;
+    }
+    .video__right video{
+            width: 100%;        
+    }
+    .video__left h1{
+        font-size: 2.5rem;
+    }
+
+    /* Newsletter Section */
+    .newsletter__section{
+        flex-direction: column;
+        margin-top: 2rem;
+        gap: 2rem;
+    }
+    .newsletter__right{
+        width: 100%;
+        min-height: 300px;
+    }
 }
 @media (800px < width <= 1200px) {
     .container{
